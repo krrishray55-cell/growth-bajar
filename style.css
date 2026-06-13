@@ -43,13 +43,15 @@ justify-content:space-between;
 align-items:center;
 }
 
-.logo{
-font-size:30px;
-font-weight:700;
+.logo img {
+    width: 170px;
+    height: auto;
+    display: block;
+    transition: 0.3s ease;
 }
 
-.logo span{
-color:#00D084;
+.logo img:hover {
+    transform: scale(1.05);
 }
 
 nav{
